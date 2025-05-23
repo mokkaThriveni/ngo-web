@@ -393,12 +393,27 @@ header {
   grid-column: span 2;
 }
 @media (max-width: 768px) {
+  .gallery-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+
+  .gallery-item {
+    flex: 0 0 auto;
+    width: 200px;
+    height: 200px; /* fixed height to match desktop grid */
+    margin-right: 10px;
+  }
+
   .gallery-item.tall,
   .gallery-item.wide {
     grid-column: span 1 !important;
     grid-row: span 1 !important;
   }
 }
+
 /* Adopt Section */
 .joinwith-us {
   background: #ff6f61;
