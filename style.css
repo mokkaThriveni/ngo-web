@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   color: #fff;
@@ -18,12 +21,9 @@ header {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 60px;
-}
+
+
+
 
 .logo {
   font-size: 32px;
@@ -43,30 +43,14 @@ header {
   padding: 5px 8px;
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-}
 
-.nav-links a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 500;
-  transition: 0.3s;
-  padding: 5px 10px;
-}
 
-.nav-links a:hover,
-.nav-links a.active {
-  background: linear-gradient(45deg, #f44336, #ff6f00);
-  border-radius: 4px;
-  color: white;
-}
+
+
 
 .hero {
   height: 100vh;
-  /* background: url('helping-hand.jpg') no-repeat center center/cover; */
+  /* background: url('samasraya.jpeg') no-repeat center center/cover; */
   background-color: gray;
   display: flex;
   align-items: center;
@@ -117,6 +101,10 @@ header {
   padding: 80px 60px;
   background-color: #f9f9f9;
   text-align: center;
+}
+.color{
+  color:#000;
+  font-weight: bold;
 }
 
 .section-title {

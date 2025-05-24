@@ -6,34 +6,55 @@
   <title>NGO  Page</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap JS -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <header>
-    <div class="navbar">
-  <div class="logo"><span class="red">F</span><span class="black">oundation</span></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <span class="bg-warning text-white px-2 py-1 fw-bold">S</span><span class="ms-2 fw-bold">amasraya</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item color">
+          <a class="nav-link active" href="#hero">Home</a>
+        </li>
+        <li class="nav-item color">
+          <a class="nav-link" href="#aboutSection">About Us</a>
+        </li>
+        <li class="nav-item color">
+          <a class="nav-link" href="#programsSection">Programs</a>
+        </li>
+        
+        <li class="nav-item color">
+          <a class="nav-link" href="#gallerySection">Gallery</a>
+        </li>
+        <li class="nav-item color">
+          <a class="nav-link" href="#joinwithus">Join Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-  <!-- Hamburger icon -->
-  <div class="menu-toggle" id="menu-toggle">&#9776;</div>
 
-  <ul class="nav-links" id="nav-links">
-    <li><a class="active" href="#">Home</a></li>
-    <li><a href="#about">About Us</a></li>
-    <li><a href="#programs">Programs</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#gallery-section">Gallery</a></li>
-    <li><a href="#adopt-section">Join Us</a></li>
-  </ul>
-</div>
 
   </header>
 
-  <section class="hero">
+  <section class="hero" id="hero">
     <div class="hero-content">
-      <h1>Together We Can <br><span class="highlight">Save Lives</span></h1>
-      <p>We provide essential food supplies and stationeries to those in need, bringing hope and support to underserved communities.</p>
-      <a href="#" class="btn">Start With A Little</a>
+      <h1>Every Act of Kindness <br><span class="highlight">Save Lives</span></h1>
+      <p>Samasraya supports the poor with food, stationeries, and blood donations — bringing dignity and hope to every life we touch.</p>
+     <a href="#" class="btn" style="background-color: #f44336;">Start With us</a>
     </div>
   </section>
   <section class="about" id="aboutSection">
@@ -69,7 +90,7 @@
         <img src="helping-hand.jpg" alt="Education">
         <div class="program-info">
           <h3>Education to every child</h3>
-          <p>Donation Goal : <span>$9845</span></p>
+          
           <a href="#" class="btn-red">Donate Now</a>
         </div>
       </div>
@@ -78,7 +99,7 @@
         <img src="helping-hand.jpg" alt="Make life easier">
         <div class="program-info">
           <h3>Make life easier for them</h3>
-          <p>Donation Goal : <span>$9845</span></p>
+          
           <a href="#" class="btn-red">Donate Now</a>
         </div>
       </div>
@@ -86,30 +107,23 @@
       <div class="program-card">
         <img src="helping-hand.jpg" alt="Helping kids">
         <div class="program-info">
-          <h3>Dedicating to helping kids</h3>
-          <p>Donation Goal : <span>$9845</span></p>
+          <h3>Feeding the Forgotten</h3>
+          
           <a href="#" class="btn-red">Donate Now</a>
         </div>
       </div>
 
-      <div class="program-card">
-        <img src="helping-hand.jpg" alt="Clean water">
-        <div class="program-info">
-          <h3>Clean water for people</h3>
-          <p>Donation Goal : <span>$9845</span></p>
-          <a href="#" class="btn-red">Donate Now</a>
-        </div>
-      </div>
+      
     </div>
   </div>
 </section>
-<section class="education" id="educationSection">
+ <!-- <section class="education" id="educationSection">
   <video autoplay muted loop class="bg-video">
-    <source src="https://youtu.be/CSBRuKIcRE0?si=GxMtRGIPbEqSsY8Y" type="video/mp4">
+    <source src="India_ Primary Education.mp3" type="video/mp4">
     
   </video>
 
-  <div class="education-overlay">
+   <div class="education-overlay">
     <h2 class="section-title">EDUCATION</h2>
     <div class="education-content">
       <h3>Education Is Essential For</h3>
@@ -117,33 +131,33 @@
       <p>We support children's education by providing necessary stationeries, helping them learn, grow, and build a brighter tomorrow.</p>
       <a href="#" class="btn-red">EXPLORE NOW</a>
     </div>
-  </div>
-</section>
+  </div> 
+</section>  -->
 <section class="gallery-section" id="gallerySection">
   <h2 class="section-title">GALLERY</h2>
   <div class="gallery-container">
     <div class="gallery-item tall">
-      <img src="helping-hand.jpg" alt="Gallery Image 1">
+      <img src="WhatsApp Image 2025-05-20 at 12.47.22.jpeg" alt="Gallery Image 1">
     </div>
     <div class="gallery-item ">
-      <img src="helping-hand.jpg" alt="Gallery Image 1">
+      <img src="WhatsApp Image 2025-05-20 at 12.47.23.jpeg" alt="Gallery Image 1">
     </div>
     <div class="gallery-item ">
-      <img src="helping-hand.jpg" alt="Gallery Image 1">
+      <img src="WhatsApp Image 2025-05-20 at 12.47.35 (1).jpeg" alt="Gallery Image 1">
     </div>
     
     <div class="gallery-item ">
-      <img src="helping-hand.jpg" alt="Gallery Image 1">
+      <img src="WhatsApp Image 2025-05-20 at 12.47.36 (1).jpeg" alt="Gallery Image 1">
     </div>
     <div class="gallery-item tall">
-      <img src="helping-hand.jpg" alt="Gallery Image 1">
+      <img src="WhatsApp Image 2025-05-20 at 12.47.37 (1).jpeg" alt="Gallery Image 1">
     </div>
     <div class="gallery-item wide">
-      <img src="helping-hand.jpg" alt="Gallery Image 1">
+      <img src="WhatsApp Image 2025-05-20 at 12.47.39.jpeg" alt="Gallery Image 1">
     </div>
     
-    <div class="gallery-item  ">
-      <img src="helping-hand.jpg" alt="Gallery Image 1">
+    <div class="gallery-item">
+      <img src="WhatsApp Image 2025-05-20 at 12.47.38.jpeg" alt="Gallery Image 1">
     </div>
     
     
@@ -160,50 +174,47 @@
   </div>
 </section>
 <!-- Adopt a Child Section -->
-<section class="joinwith-us">
+<section class="joinwith-us" id="joinwithus">
   <div class="container">
-    <h2>JOIN US &  & <span>MAKE A DIFFERENCE</span></h2>
+    <h2>JOIN US& <span>MAKE A DIFFERENCE</span></h2>
     <p>Be a part of our mission to support the underprivileged with food and stationeries. Together, we can bring hope and change to those who need it most.
-
-
-
-
-
-
-
-
 </p>
     <div class="adopt-buttons">
-      <a href="#" class="btn btn-join">Join Us</a>
+      <a href="#" class="btn btn-join"style="background-color: black">Join Us</a>
 
     </div>
   </div>
 </section>
 
 <!-- Footer Section -->
-<footer class="footer-section">
-  <div class="footer-container">
-    <div class="footer-column">
-      <h3><img src="helping-hand.jpg" alt="NGO Logo"> Samasrya</h3>
-      <p></p>
-    </div>
-    <div class="footer-column">
-      <h4>Useful Links</h4>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Programs</a></li>
-        <li><a href="#">Education</a></li>
-        <li><a href="#">Gallery</a></li>
-      </ul>
-    </div>
-    <div class="footer-column">
-      <h4>Connect With Us</h4>
-      <p>Saraswati Colony, endada<br>121003, vishakapatnam</p>
-      <p>info@ngo.com</p>
+<footer class="bg-dark text-light py-5">
+  <div class="container">
+    <div class="row">
+
+      <!-- About Section -->
+      <div class="col-md-6 mb-6">
+        <h5 class="text-uppercase mb-3">About Samasraya</h5>
+        <p>
+          Samasraya is a non-profit organization dedicated to serving underprivileged communities by providing food, stationeries, and organizing blood donation drives.
+        </p>
+      </div>
+
+      <!-- Useful Links -->
+      
+      <!-- Contact Info -->
+      <div class="col-md-6 mb-6">
+        <h5 class="text-uppercase mb-3">Connect With Us</h5>
+        <p>
+          Saraswati Colony, Endada<br>
+          Visakhapatnam, Andhra Pradesh - 530045<br>
+          Email: <a href="mailto:info@samasraya.org" class="text-light">info@samasraya.org</a>
+        </p>
+      </div>
+
     </div>
   </div>
 </footer>
+
 
 
 
@@ -214,6 +225,7 @@
   menuToggle.addEventListener("click", () => {
     navLinks.classList.toggle("active");
   });
+  
 </script>
 </body>
 </html>
